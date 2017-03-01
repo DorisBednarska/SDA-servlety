@@ -8,6 +8,10 @@
         <servlet-name>PathServlet</servlet-name>
         <servlet-class>com.doris.PathServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.doris.UserServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
@@ -16,5 +20,9 @@
     <servlet-mapping>
         <servlet-name>PathServlet</servlet-name>
         <url-pattern>/path/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/users/*</url-pattern>
     </servlet-mapping>
 </web-app>
